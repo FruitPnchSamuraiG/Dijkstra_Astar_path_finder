@@ -1,3 +1,5 @@
+<h1>Dijkstra and A* Algorithm</h1>
+
 This project contains a Python implementation of A* (A star) search algorithm
 that is widely used in path finding and graph traversal, and Dijkstra algorithm
 that is used in Cisco router shortest path finding.
