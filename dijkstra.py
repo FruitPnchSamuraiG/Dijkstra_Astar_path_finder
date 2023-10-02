@@ -2,10 +2,6 @@ from tkinter import messagebox, Tk
 import pygame
 import sys
 
-print(sys.path)
-
-print(sys.path)
-
 window_width = 500
 window_height = 500
 
