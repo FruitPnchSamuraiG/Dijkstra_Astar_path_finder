@@ -17,7 +17,7 @@ A Python graphical demo program is provided to animate the progress of path sear
 ### Screenshots
 
 ![Dijkstras Algorithm](/images/dijkstras.png)
-![A* Algorithm](/images/A_star.png)
+![A* Algorithm](/images/Astar.png)
 
 
 For more details, you can refer to the Python code and documentation in this repository.
