@@ -1,45 +1,35 @@
-<!DOCTYPE html>
-<html>
+## A* and Dijkstra Pathfinding Algorithms
 
-<head>
-    <title>Pathfinding Algorithms - A* and Dijkstra</title>
-</head>
+This project contains a Python implementation of A* (A star) search algorithm that is widely used in path finding and graph traversal, and Dijkstra's algorithm that is used in Cisco router shortest path finding.
 
-<body>
+### A* Algorithm vs. Dijkstra's Algorithm
 
-    <h1>Pathfinding Algorithms - A* and Dijkstra</h1>
+Both A* and Dijkstra's algorithms are used for finding paths in graphs, but they have some differences:
 
-    <p>This project contains Python implementations of the A* and Dijkstra algorithms used for pathfinding and graph traversal.</p>
+- **A* Algorithm**: A* uses a heuristic mechanism, which helps it find paths faster than Dijkstra's algorithm. However, the path it finds may not always be the optimal one because it uses heuristics to make educated guesses.
 
-    <h2>About A* and Dijkstra Algorithms</h2>
+- **Dijkstra's Algorithm**: Dijkstra's algorithm, on the other hand, guarantees the shortest path. It explores all possible paths, making it slower than A* for larger graphs.
 
-    <h3>Dijkstra's Algorithm</h3>
-    <ul>
-        <li>Dijkstra's algorithm is a graph search algorithm used to find the shortest path between nodes in a weighted graph.</li>
-        <li>It explores all possible paths from the start node to all other nodes and selects the path with the minimum total cost.</li>
-        <li>Dijkstra's algorithm guarantees that it will find the shortest path, making it optimal.</li>
-        <li>However, it does not consider any heuristic, so it may not be the fastest option for large graphs.</li>
-    </ul>
+### Python Implementation
 
-    <h3>A* Algorithm</h3>
-    <ul>
-        <li>A* (A star) is also used for finding the shortest path in a weighted graph but includes a heuristic component.</li>
-        <li>It combines the advantages of both uniform cost search (like Dijkstra's) and greedy search (using a heuristic).</li>
-        <li>A* uses a heuristic function to estimate the cost from the current node to the goal, helping it prioritize paths that are likely to be shorter.</li>
-        <li>It guarantees an optimal path if the heuristic is both admissible (never overestimates the true cost) and consistent.</li>
-        <li>A* is often faster than Dijkstra's algorithm because it can quickly eliminate paths that are unlikely to be optimal due to its use of heuristics.</li>
-    </ul>
+A Python graphical demo program is provided to animate the progress of path searching using both algorithms. You can see the two resulted paths for comparison.
 
-    <h2>Why A* is Preferred</h2>
-    <p>A* is often preferred over Dijkstra's algorithm because it can significantly reduce the number of nodes visited during the search, leading to faster pathfinding in many cases. It achieves this by using the heuristic to prioritize nodes that are more likely to lead to a shorter path.</p>
+### Screenshots
 
-    <h2>Demo</h2>
-    <p>A Python graphical demo program is provided to animate the progress of path searching, and the two resulted paths for comparison.</p>
+![A* Algorithm](/images/d)
+![Dijkstra's Algorithm](URL_TO_YOUR_DIJKSTRA_IMAGE)
 
-    <h2>Pathfinding Demo Images</h2>
-    <img src="URL_TO_YOUR_A_STAR_IMAGE" alt="A* Algorithm">
-    <img src="URL_TO_YOUR_DIJKSTRA_IMAGE" alt="Dijkstra's Algorithm">
+Replace `URL_TO_YOUR_A_STAR_IMAGE` and `URL_TO_YOUR_DIJKSTRA_IMAGE` with the actual image URLs you obtained from the hosting service for your algorithm demonstration images.
 
-</body>
+For more details, you can refer to the Python code and documentation in this repository.
 
-</html>
+#### How to Run the Demo
+
+You can run the demo program by following these steps:
+
+1. Clone the repository to your local machine.
+2. Ensure you have Python installed.
+3. Run the Python script to visualize A* and Dijkstra's algorithms in action.
+
+Enjoy exploring the differences between A* and Dijkstra's algorithms!
+
