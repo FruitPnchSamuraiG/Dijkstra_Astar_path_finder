@@ -14,10 +14,9 @@ Both A* and Dijkstra's algorithms are used for finding paths in graphs, but they
 
 A Python graphical demo program is provided to animate the progress of path searching using both algorithms. You can see the two resulted paths for comparison.
 
-### Screenshots
-
-![Dijkstras Algorithm](/images/dijkstras.png)
-![A* Algorithm](/images/Astar.png)
+### Working
+![Demo GIF](images/Dijkstra.gif)
+![Demo GIF](images/Astart.gif)
 
 
 For more details, you can refer to the Python code and documentation in this repository.
